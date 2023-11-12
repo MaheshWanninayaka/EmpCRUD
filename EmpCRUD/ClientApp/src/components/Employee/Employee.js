@@ -60,7 +60,7 @@ export default function Employee() {
                         stockData.map((item, index) => {
                             return (
                                 <tr>
-                                    <th>{index+1}</th>&nbsp;
+                                    <th>{index + 1}</th>&nbsp;
                                     <th>{item.name}</th>&nbsp;
                                     <th>{item.address}</th>&nbsp;
                                     <th>{item.salary}</th>&nbsp;
